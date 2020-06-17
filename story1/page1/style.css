@@ -1,0 +1,53 @@
+body {
+    background: url("01.png") no-repeat;
+    background-size: cover;
+}
+header h1{
+    text-align: center;
+}
+
+main{
+    height: 90vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+main section{
+    border:5px red solid;
+    height: 300px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+main section .section-content p{
+    padding: 10px;
+    font-size: 32px;
+}
+
+main section .content-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+main section .content-link a{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main section .content-link a:hover{
+    background-color: wheat;
+    color: black;
+}
