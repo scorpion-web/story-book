@@ -1,6 +1,6 @@
 body {
-    background: url("01.png") no-repeat;
-    background-size: cover;
+    background: url("003.png") no-repeat;
+    background-size: contain;
 }
 header h1{
     text-align: center;
